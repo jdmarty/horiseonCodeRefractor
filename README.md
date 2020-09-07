@@ -8,6 +8,10 @@
 4. Heading attributes fall in sequential order
 5. The title is concise and descriptive
 
+### General Tweaks
+1. Reorganized css to put element selectors at top
+2. Reorganized css to group selectors by family (content, benefits, footer, etc)
+
 ### Head Changes
 1. Added a descriptive title in html head
 2. Added a "type" attribute to the stylesheet link in html head
