@@ -11,7 +11,9 @@
 ### Code Changes
 1. Added a descriptive title in html head
 2. Added a "type" attribute to the stylesheet link in html head
-3. Changed a div with the class "header" to the semantic header tag
+3. Changed a div with class "header" to the semantic header tag
 4. Updated CSS to match new element tag for header
 5. Replaced a parent "div" in the header containing navigation elements to the semantic nav tag
 6. Updated CSS to match new element tag for nav
+7. Changed div with class "hero" to an image tag with relative filepath src and alt attribute
+8. Updated CSS for hero class to remove background image and set object fit to cover
