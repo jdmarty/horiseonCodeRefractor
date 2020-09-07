@@ -39,3 +39,4 @@
 3. Added "benefit-article" class to all articles in the benefits section
 5. Moved the repetitive styling for individual article classes into the benefit-article class selector
 6. Moved css selectors for images and headers in the articles into a single benefit-article class selector (img and h3)
+7. Moved the individualized class names for each article into the id attribute
