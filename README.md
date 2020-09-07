@@ -23,4 +23,7 @@
 ### Content Changes
 1. Changed div with class "content" to a semantic section tag
 2. Changed child divs of content section to semantic article tag
-3. Removed redundant id tags from online reputation management and social media marketing articles
+3. Moved the individualized class names for each article into the id attribute
+4. Added "content-article" class to all articles in the content section
+5. Moved the repetitive styling for individual article classes into the content-article class selector
+6. Moved css selectors for images and headers in the articles into a single content-article class selector (img and h2)
