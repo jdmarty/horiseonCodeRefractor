@@ -40,3 +40,7 @@
 5. Moved the repetitive styling for individual article classes into the benefit-article class selector
 6. Moved css selectors for images and headers in the articles into a single benefit-article class selector (img and h3)
 7. Moved the individualized class names for each article into the id attribute
+
+### Footer Changes
+1. Changed div with class "footer" to a semantic footer tag
+2. Updated CSS to match new element tag for footer
