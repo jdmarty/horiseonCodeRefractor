@@ -27,3 +27,4 @@
 4. Added "content-article" class to all articles in the content section
 5. Moved the repetitive styling for individual article classes into the content-article class selector
 6. Moved css selectors for images and headers in the articles into a single content-article class selector (img and h2)
+7. Gave each image in the content section an alt attribute
