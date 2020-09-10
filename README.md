@@ -1,5 +1,5 @@
 # Horiseon Code Refractor
-## UCI Bootcamp HW 1
+## Homework 1 - UCI Bootcamp
 
 ### Project Goals
 1. Semantic HTML elements are found in the source code
