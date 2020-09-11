@@ -34,8 +34,8 @@
 7. Gave each image in the content section an alt attribute
 
 ### Benefits Changes
-1. Changed div with class "benefits" to a semantic section tag
-2. Changed child divs of benefits section to semantic article tag
+1. Changed div with class "benefits" to a semantic aside tag
+2. Changed child divs of benefits aside to semantic article tag
 3. Added "benefit-article" class to all articles in the benefits section
 5. Moved the repetitive styling for individual article classes into the benefit-article class selector
 6. Moved css selectors for images and headers in the articles into a single benefit-article class selector (img and h3)
