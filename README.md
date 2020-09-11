@@ -11,6 +11,8 @@
 ### General Tweaks
 1. Reorganized css to put element selectors at top
 2. Reorganized css to group selectors by family (content, benefits, footer, etc)
+3. Changed single use classes "seo" and "hero" to ids
+4. Tabbed CSS file to visually group selectors by parent element
 
 ### Head Changes
 1. Added a descriptive title in html head
@@ -46,85 +48,49 @@
 2. Updated CSS to match new element tag for footer
 
 
--------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
 
-# Unit 01: Introduction to Web Development, HTML, CSS, and Git
+# 01 HTML CSS Git: Code Refactor
 
-## Overview
+One of the most common tasks for front-end and junior developers is to take existing code and refactor it to either meet a certain set of standards or implement a new technology. Web accessibility is an increasingly important consideration for businesses, ensuring that people with disabilities or socio-economic restrictions have access to their website, and helping them avoid litigation.
 
-Congratulations! This is the first step in your journey towards a career in full-stack web development. There are many paths that you can take in this field and this unit is the foundation for all of them. Every full-stack web developer must master HTML and CSS, as well as learn how to program browsers, servers, and databases. 
+Your task is to refactor an existing webpage to make it accessible. An important rule to follow when working with someone else's code is the Scout Rule:
 
-You have several choices for the programming language that you use for building and deploying full-stack web applications, including JavaScript, PHP, and Python. This course focuses on JavaScript. We’ll use it to program both the browser (aka the client) and the server.
+> Always leave the code you are editing a little cleaner than you found it.
 
-Regardless of the programming language you use, two tools that every developer uses on a daily basis are the **command line** and **version control**. The command line allows developers to quickly and efficiently interface with their operating system and software. To begin, we'll use the command line to navigate the file tree and create directories and files. Later, we'll use it to install software dependencies and run servers, among other tasks. Version control is an approach to managing changes in files without the need to make multiple copies of those files. We'll learn **Git**, which is the most popular version control system. Git integrates with **GitHub.com**, a site for developers to host and share their code. We will deploy our first website using **GitHub Pages**.
+To impress clients, you should always go the extra mile and improve their codebase for long term sustainability. Ensure that all links are functioning correctly and clean up the CSS to make it more efficient, consolidating CSS selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
 
-The first, and perhaps most important, file we'll create is `index.html`, which is the default entry point for any web application. All of our subsequent work will build on this initial starting point. The file suffix `.html` refers to **HTML**, or **Hypertext Markup Language**. HTML allows us to format webpages and text in a similar way to how a word processor formats documents and the text inside them. However, the biggest difference between HTML and a word processor is the ability to link between any document that's on the web, anywhere in the world. This is the "hypertext" in HTML.
+## User Story
 
-Though HTML is enough to create a simple website, it falls a bit short in the design department. So we'll  add color, fonts, and element positioning by adding **CSS** (**Cascading Style Sheets**) to our HTML files to make them visually dynamic. In the next unit, we'll learn CSS frameworks that can expedite our development process.
+```
+AS A marketing agency
+I WANT a codebase that follows accessibility standards
+SO THAT our own site is optimized for search engines
+```
 
-Subsequent units will build on this foundation of HTML, CSS, and version control as we add JavaScript, servers, and databases to our stack to build interactive web applications.
+## Acceptance Criteria
 
-## Key Topics
+```
+GIVEN a webpage meets accessibility standards
+WHEN I view the source code
+THEN I find semantic HTML elements
+WHEN I view the structure of the HTML elements
+THEN I find that the elements follow a logical structure independent of styling and positioning
+WHEN I view the image elements
+THEN I find accessible alt attributes
+WHEN I view the heading attributes
+THEN they fall in sequential order
+WHEN I view the title element
+THEN I find a concise, descriptive title
+```
 
-The following topics will be covered in this unit:
-* Command-line basics
-  * Navigating the file tree
-  * Creating, copying, and removing files and directories
-* HTML
-  * Semantic elements, tags
-  * Attributes
-  * Best practices: indentation, file naming conventions and directory structure
-* CSS
-  * Order of importance
-  * Class vs. id
-  * Selectors
-  * Typography
-  * Box model
-  * Positioning and floats
-  * Color: hexadecimal, rgb and named
-* Git & Git workflow
-  * git clone
-  * git add
-  * git commit
-  * git push
-  * git pull
-* GitHub
-  * Create a repository
-  * Deploy to personal pages
+## Review
 
-## Comprehension Check
+You are required to submit the following for review:
 
-You will be employer-ready if you can answer the following questions:
+* The URL of the deployed application.
 
-1. What does it mean to be a full-stack web developer?
-2. What is the relationship between HTML and CSS?
-3. What is Git workflow?
-
-## Learning Objectives
-
-You will be employer-competitive if you are able to:
-
-* Build and style static webpages with semantic HTML and CSS
-* Implement best practices and standards when structuring HTML files using nested elements, indentation, comments, and line breaks
-* Implement CSS styling via class, id and element selectors using external stylesheets, inline styles and embedded style tags
-* Explain the "cascading" in Cascading Style Sheets and implement the box model for HTML elements
-* Explain the value of version control and use Git workflow to initialize projects, track changes, and host via remote server
-* Perform common commands via the command line to interface with the operating system, such as navigating the file tree and creating and deleting files and directories
-* Execute live deployment using GitHub Pages
-
-## Homework: Code Refactor
-
-Take the provided codebase and refactor it to make it accessible. Don't forget the cardinal rule when working with someone elses code:
-"Always leave the code you are editing a little cleaner than you found it"
-
-## Helpful Links
-
-* [Version Control](https://en.wikipedia.org/wiki/Version_control)
-* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-* [Pro Git](https://git-scm.com/book/en/v2)
-* [Dev Docs](https://devdocs.io/)
-
+* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
 
 - - -
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
