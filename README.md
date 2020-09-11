@@ -13,6 +13,7 @@
 2. Reorganized css to group selectors by family (content, benefits, footer, etc)
 3. Changed single use classes "seo" and "hero" to ids
 4. Tabbed CSS file to visually group selectors by parent element
+5. Added comments to HTML to easily traverse minimized elements
 
 ### Head Changes
 1. Added a descriptive title in html head
