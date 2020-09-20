@@ -5,8 +5,8 @@ Deployed: [https://jdmarty.github.io/horiseonCodeRefractor/](https://jdmarty.git
 
 Repository: [https://github.com/jdmarty/horiseonCodeRefractor](https://github.com/jdmarty/horiseonCodeRefractor).
 
-![Top half of the Horiseon Website](assets/images/Screenshot-Top)
-![Bottom half of the Horiseon Website](assets/images/Screenshot-Bottom)
+![Top half of the Horiseon Website](/assets/images/Screenshot-Top.png)
+![Bottom half of the Horiseon Website](/assets/images/Screenshot-Bottom.png)
 
 ### Project Goals
 1. Semantic HTML elements are found in the source code
