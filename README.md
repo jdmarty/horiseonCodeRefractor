@@ -1,6 +1,12 @@
 # Horiseon Code Refractor
 ## Homework 1 - UCI Bootcamp
 
+Deployed: [https://jdmarty.github.io/horiseonCodeRefractor/](https://jdmarty.github.io/horiseonCodeRefractor/).
+Repository: [https://github.com/jdmarty/horiseonCodeRefractor](https://github.com/jdmarty/horiseonCodeRefractor).
+
+![Top half of the Horiseon Website](/assets/images/Screenshot-Top)
+![Bottom half of the Horiseon Website](/assets/images/Screenshot-Bottom)
+
 ### Project Goals
 1. Semantic HTML elements are found in the source code
 2. Elements follow a logical structure independent of styling and position
