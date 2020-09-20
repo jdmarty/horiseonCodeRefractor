@@ -1,9 +1,11 @@
+/* Add border box styling to all elements */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Element level general styles */
 body {
     background-color: #d9dcd6;
 }
@@ -17,7 +19,7 @@ p {
     font-size: 16px;
 }
 
-
+/* Header styling */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -50,6 +52,7 @@ header {
                 margin-left: 25px;
             }
 
+/* Stlying for "jumbotron" image */
 #hero {
     height: 800px;
     width: 100%;
@@ -57,6 +60,7 @@ header {
     object-fit: cover;
 }
 
+/* Classes to standardize float settings */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -67,6 +71,7 @@ header {
     margin-left: 25px;
 }
 
+/* Styles for the content section and the included articles */
 .content {
     width: 75%;
     display: inline-block;
@@ -91,6 +96,7 @@ header {
             font-size: 36px;
         }
 
+/* Styles for benfits sidebar and the included articles */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -118,6 +124,7 @@ header {
             max-width: 150px;
         }
 
+/* Styles for footer */
 footer {
     padding: 30px;
     clear: both;
